@@ -10,9 +10,9 @@ function Home() {
       <Banner />
       <div className="my-2">
         <div>
-          <h1>Home Page</h1>
+          <h1 className="text-center p-3">Home Page</h1>
         </div>
-        <div className="d-flex">
+        <div className="d-flex justify-content-around flex-wrap row-gap-2">
           <div className="card" style={{ width: "18rem" }}>
             <img
               src="../../public/media/card-programming.jpg"
@@ -84,8 +84,8 @@ function Home() {
         </div>
 
         <div className="trending-blogs-section">
-          <h2>Trending Blogs</h2>
-          <div className="all-trending-blogs d-flex justify-content-between flex-wrap row-gap-2">
+          <h2 className="text-center p-3">Trending Blogs</h2>
+          <div className="all-trending-blogs d-flex justify-content-around flex-wrap row-gap-2">
             {
               blogs.map((blog) => (
                 <TrendingBlog key={blog.id} blog={blog} />

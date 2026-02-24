@@ -14,6 +14,62 @@ const blogs = [
         previewDescription: "Discover practical tips for maintaining a healthy lifestyle."
     },
     {
+        id:1,
+        title: "How to Learn JavaScript",
+        category: "Programming",
+        content: "JavaScript is a versatile programming language that can be used for both front-end and back-end development. To learn JavaScript, start with the basics such as variables, data types, and functions. Practice coding regularly and build small projects to apply your knowledge. Utilize online resources like tutorials, documentation, and coding challenges to enhance your skills.",
+        previewDescription: "Learn the fundamentals of JavaScript and how to get started with coding."
+    },
+    {
+        id:2,
+        title: "10 Tips for Healthy Living",
+        category: "Health",
+        content: "Maintaining a healthy lifestyle is essential for overall well-being. Here are 10 tips to help you live a healthier life: 1) Eat a balanced diet rich in fruits and vegetables. 2) Stay hydrated by drinking plenty of water. 3) Exercise regularly to keep your body fit. 4) Get adequate sleep each night. 5) Manage stress through relaxation techniques. 6) Avoid smoking and excessive alcohol consumption. 7) Schedule regular health check-ups. 8) Practice good hygiene habits. 9) Spend time outdoors in nature. 10) Maintain social connections with family and friends.",
+        previewDescription: "Discover practical tips for maintaining a healthy lifestyle."
+    },
+    {
+        id:1,
+        title: "How to Learn JavaScript",
+        category: "Programming",
+        content: "JavaScript is a versatile programming language that can be used for both front-end and back-end development. To learn JavaScript, start with the basics such as variables, data types, and functions. Practice coding regularly and build small projects to apply your knowledge. Utilize online resources like tutorials, documentation, and coding challenges to enhance your skills.",
+        previewDescription: "Learn the fundamentals of JavaScript and how to get started with coding."
+    },
+    {
+        id:2,
+        title: "10 Tips for Healthy Living",
+        category: "Health",
+        content: "Maintaining a healthy lifestyle is essential for overall well-being. Here are 10 tips to help you live a healthier life: 1) Eat a balanced diet rich in fruits and vegetables. 2) Stay hydrated by drinking plenty of water. 3) Exercise regularly to keep your body fit. 4) Get adequate sleep each night. 5) Manage stress through relaxation techniques. 6) Avoid smoking and excessive alcohol consumption. 7) Schedule regular health check-ups. 8) Practice good hygiene habits. 9) Spend time outdoors in nature. 10) Maintain social connections with family and friends.",
+        previewDescription: "Discover practical tips for maintaining a healthy lifestyle."
+    },
+    {
+        id:1,
+        title: "How to Learn JavaScript",
+        category: "Programming",
+        content: "JavaScript is a versatile programming language that can be used for both front-end and back-end development. To learn JavaScript, start with the basics such as variables, data types, and functions. Practice coding regularly and build small projects to apply your knowledge. Utilize online resources like tutorials, documentation, and coding challenges to enhance your skills.",
+        previewDescription: "Learn the fundamentals of JavaScript and how to get started with coding."
+    },
+    {
+        id:2,
+        title: "10 Tips for Healthy Living",
+        category: "Health",
+        content: "Maintaining a healthy lifestyle is essential for overall well-being. Here are 10 tips to help you live a healthier life: 1) Eat a balanced diet rich in fruits and vegetables. 2) Stay hydrated by drinking plenty of water. 3) Exercise regularly to keep your body fit. 4) Get adequate sleep each night. 5) Manage stress through relaxation techniques. 6) Avoid smoking and excessive alcohol consumption. 7) Schedule regular health check-ups. 8) Practice good hygiene habits. 9) Spend time outdoors in nature. 10) Maintain social connections with family and friends.",
+        previewDescription: "Discover practical tips for maintaining a healthy lifestyle."
+    },
+    {
+        id:1,
+        title: "How to Learn JavaScript",
+        category: "Programming",
+        content: "JavaScript is a versatile programming language that can be used for both front-end and back-end development. To learn JavaScript, start with the basics such as variables, data types, and functions. Practice coding regularly and build small projects to apply your knowledge. Utilize online resources like tutorials, documentation, and coding challenges to enhance your skills.",
+        previewDescription: "Learn the fundamentals of JavaScript and how to get started with coding."
+    },
+    {
+        id:2,
+        title: "10 Tips for Healthy Living",
+        category: "Health",
+        content: "Maintaining a healthy lifestyle is essential for overall well-being. Here are 10 tips to help you live a healthier life: 1) Eat a balanced diet rich in fruits and vegetables. 2) Stay hydrated by drinking plenty of water. 3) Exercise regularly to keep your body fit. 4) Get adequate sleep each night. 5) Manage stress through relaxation techniques. 6) Avoid smoking and excessive alcohol consumption. 7) Schedule regular health check-ups. 8) Practice good hygiene habits. 9) Spend time outdoors in nature. 10) Maintain social connections with family and friends.",
+        previewDescription: "Discover practical tips for maintaining a healthy lifestyle."
+    },
+    {
         id:3,
         title: "The Benefits of Meditation",
         category: "Wellness",
