@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../Context/AuthContext.jsx";
 import "./login.css";
 
 function Login() {
@@ -8,18 +9,25 @@ function Login() {
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-  // fake user for demonstration
-  const validUser = { email: "varunkandimalla333@gmail.com", password: "12345" };
+  const { login } = useContext(AuthContext);
 
   const handleSubmit = (e) => {
-    e.preventDefault();                       // don’t reload page
-    if (email === validUser.email && password === validUser.password) {
-      // success – could set auth state, call context, redirect, etc.
-      setError("");
-      console.log("logged in!");
-      navigate("/", { replace: true });
+    e.preventDefault();
+
+    const stored = localStorage.getItem("registeredUser");
+    const registeredUser = stored ? JSON.parse(stored) : null;
+
+    if (
+      registeredUser &&
+      email === registeredUser.email &&
+      password === registeredUser.password
+    ) {
+      login(registeredUser);
+      navigate("/");
     } else {
-      setError("Invalid email or password");
+      setError(
+        "Invalid email or password."
+      );
     }
   };
 
