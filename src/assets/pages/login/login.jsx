@@ -24,6 +24,7 @@ function Login() {
     ) {
       login(registeredUser);
       navigate("/");
+      console.log("Login successful:", registeredUser);
     } else {
       setError(
         "Invalid email or password."

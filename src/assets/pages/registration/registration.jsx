@@ -20,6 +20,8 @@ function Registration() {
       password,
     }
 
+    console.log("Registered user data:", userData);
+
     localStorage.setItem("registeredUser", JSON.stringify(userData));
     alert("Registration successful! Please login.");
     navigate("/login", { replace: true });
